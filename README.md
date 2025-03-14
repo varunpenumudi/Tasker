@@ -18,7 +18,7 @@
 
 [Capstone Project Demo](https://youtu.be/tPgiXyVhU0U)
 
-![Index Page](web_app_images/index_page.png)
+![Index Page](media/web_app_images/index_page.png)
 
 ## ⚙️ Distinctiveness and Complexity
 
@@ -111,32 +111,32 @@ Tasker is more complex than other projects due to extensive JavaScript usage:
 
 - **Add New Task**: Click the "New Task" link in the navbar to add a new task.
 
-    ![New Task Form](web_app_images/new_task_form.png)
+    ![New Task Form](media/web_app_images/new_task_form.png)
 
 - **Task Previews**: View task previews on the index page with titles, descriptions, and progress bars.
 
-    ![Index Page](web_app_images/index_page.png)
+    ![Index Page](media/web_app_images/index_page.png)
 
 - **Task Details**: Click a task preview to view its details.
 
-    ![Task Details](web_app_images/Task_contents_page.png)
+    ![Task Details](media/web_app_images/Task_contents_page.png)
 
 - **Edit Task**: Edit task descriptions, change priorities, add/delete subtasks, and update progress dynamically.
 
-    ![Edit Task](web_app_images/editing_task.png)
+    ![Edit Task](media/web_app_images/editing_task.png)
 
 - **Priority Matrix**: View the priority matrix to see tasks categorized by priority.
 
-    ![Priority Matrix](web_app_images/priority_matrix.png)
+    ![Priority Matrix](media/web_app_images/priority_matrix.png)
 
 - **Priority Tasks**: Click a priority box to view tasks with that priority.
 
-    ![Priority Tasks](web_app_images/important_and_urgent.png)
+    ![Priority Tasks](media/web_app_images/important_and_urgent.png)
 
 - **User Profile**: View user details and task statistics.
 
-    ![User Profile](web_app_images/user_profile.png)
+    ![User Profile](media/web_app_images/user_profile.png)
 
 - **Mobile Responsive**: The app is fully responsive for mobile devices.
 
-    ![Mobile Responsive](web_app_images/mobile_responsive.png)
+    ![Mobile Responsive](media/web_app_images/mobile_responsive.png)
