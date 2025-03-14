@@ -1,0 +1,97 @@
+{% extends 'tasker/layout.html' %}
+{% load static %}
+
+{% block title %} Tasker {% endblock %}
+
+{% block script %} <link rel="stylesheet" href="{% static 'tasker/landing.css' %}"> {% endblock %}
+
+
+{% block body %}
+    <!-- FROM HERE -->
+    <!-- Hero Section -->
+    <section class="hero-section text-center">
+        <div class="container">
+          <h1 class="display-4">Transform Your Productivity Journey</h1>
+          <p class="lead mb-4">
+            Experience the power of intelligent task management. Stay organized, focused, and accomplish more than ever before.
+          </p>
+          <a href="{% url 'register' %}" class="btn btn-lg">Start Free Today</a>
+        </div>
+      </section>
+  
+      <!-- Features Section -->
+      <section class="feature-section">
+        <div class="container">
+          <div class="row align-items-center mb-5">
+            <div class="col-md-6">
+              <img
+                src="https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8dGFza3N8ZW58MHx8MHx8fDI%3D"
+                alt="Task Management"
+                class="img-fluid mb-4 mb-md-0"
+              />
+            </div>
+            <div class="col-md-6">
+              <h2>Task Management Made Simple</h2>
+              <p>
+                Create, organize, and manage your tasks effortlessly. Break them
+                into subtasks and track your progress with ease. Our intuitive
+                interface makes task management a breeze.
+              </p>
+            </div>
+          </div>
+          <div class="row align-items-center mb-5">
+            <div class="col-md-6 order-md-2">
+              <img
+                src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&auto=format&fit=crop"
+                alt="Progress Tracking"
+                class="img-fluid mb-4 mb-md-0"
+              />
+            </div>
+            <div class="col-md-6 order-md-1">
+              <h2>Track Your Progress</h2>
+              <p>
+                Visualize your progress with intuitive progress bars and stay
+                motivated to achieve your goals. Watch your productivity soar as
+                you complete tasks and reach milestones.
+              </p>
+            </div>
+          </div>
+          <div class="row align-items-center">
+            <div class="col-md-6">
+              <img
+                src="https://images.unsplash.com/photo-1507925921958-8a62f3d1a50d?w=600&auto=format&fit=crop"
+                alt="Categorization"
+                class="img-fluid mb-4 mb-md-0"
+              />
+            </div>
+            <div class="col-md-6">
+              <h2>Smart Categorization</h2>
+              <p>
+                Categorize tasks based on urgency and importance to focus on what
+                truly matters. Our smart categorization system helps you prioritize
+                effectively and stay organized.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+  
+      <!-- Call to Action Section -->
+      <section class="cta-section text-center">
+        <div class="container">
+          <h2>Ready to Boost Your Productivity?</h2>
+          <p class="lead mb-4">
+            Join us to transform your task management experience.
+          </p>
+          <a href="{% url 'register' %}" class="btn btn-primary btn-lg">Start Your Journey</a>
+        </div>
+      </section>
+  
+      <!-- Footer -->
+      <footer class="footer text-center">
+        <div class="container">
+          <p>&copy; 2023 Task Manager. All rights reserved.</p>
+        </div>
+      </footer>
+      <!-- TO HERE -->
+{% endblock %}
